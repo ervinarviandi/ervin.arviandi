@@ -1,0 +1,424 @@
+/* navbar */
+
+.navbar {
+  background: url(img/hero-pattern-bg.png);
+  background: linear-gradient(20deg, #4d209e, #605fd2, #52addc);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+.navbar-brand {
+  font-family: "poppins", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.navbar-brand span {
+  color: rgb(250, 51, 51);
+}
+
+.navbar .tombol {
+  background-color: #feab0d;
+  color: #fffffe;
+}
+
+.nav-link {
+  color: #4d209e;
+}
+
+.nav-link:hover::after {
+  content: "";
+  display: block;
+  border-bottom: 3px solid #feab0d;
+  margin: auto;
+  width: 50%;
+  padding-bottom: 5px;
+  margin-bottom: -8px;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  font-family: "poppins", sans-serif;
+  background: url(img/bghero.jpg);
+  /* background-image: url(img/hero-pattern-bg.png); */
+  /* background: linear-gradient(20deg, #4d209e, #605fd2, #52addc); */
+  background-size: cover;
+  /* background-color: #1e1b2f; */
+  /* background: linear-gradient(90deg, #42e695, #3ad4b1, #3bb2b8); */
+  height: 100vh;
+  text-align: center;
+}
+
+.jumbotron h1 {
+  margin-top: 130px;
+  font-weight: 700;
+  color: #fffffe;
+}
+
+.jumbotron h1 span {
+  color: #feab0d;
+}
+
+.jumbotron p {
+  margin-top: 30px;
+  color: #fffffe;
+}
+
+.jumbotron img {
+  margin-top: 130px;
+  width: 200px;
+  display: none;
+}
+
+.jumbotron .tombol {
+  background-color: #feab0d;
+  color: white;
+  margin-top: 40px;
+}
+
+.jumbotron .tombol:hover {
+  transform: translateY(-7px);
+}
+
+.jumbotron .white {
+  /* background-color: #1e1b2f; */
+  color: white;
+  margin-top: 40px;
+  border-radius: 40px;
+}
+
+.jumbotron .white:hover {
+  background-color: #feab0d;
+}
+
+.jumbotron .bi {
+  margin: 30px auto;
+}
+
+.jumbotron .gambar1 {
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  display: block;
+}
+
+.jumbotron .gambar2 {
+  position: absolute;
+  right: 40%;
+  top: 60%;
+  display: block;
+}
+
+.jumbotron .gambar3 {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+}
+
+/* utility */
+.jumbotron .contact {
+  padding-top: 10px;
+  margin: 30px;
+  font-size: 28px;
+  text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.jumbotron .bi {
+  color: #fffffe;
+  margin-right: 10px;
+}
+
+.tombol {
+  border-radius: 40px;
+}
+
+#about {
+  padding-top: 6rem;
+}
+
+#project {
+  padding-top: 6rem;
+}
+
+#portfolio {
+  padding-top: 6rem;
+}
+
+/* section keahlian what i do */
+.info-panel {
+  background-color: white;
+  margin-top: -50px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  padding: 25px;
+}
+
+.info-panel img {
+  float: left;
+  width: 80px;
+  /* height: 80px; */
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.info-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.info-panel p {
+  font-size: 14px;
+  color: #acacac;
+  margin-top: -5px;
+  font-weight: 200;
+}
+
+/* feature panel */
+.feature-panel {
+  background-color: white;
+  margin-top: 100px;
+  box-shadow: 0 3px 20px rgba(0, 0, 0, 0.5);
+  border-radius: 12px;
+  padding: 30px;
+}
+
+.feature-panel img {
+  float: left;
+  width: 80px;
+  /* height: 80px; */
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.featured img {
+  display: none;
+  border-radius: 30px;
+}
+
+.feature-panel h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.feature-panel p {
+  font-size: 14px;
+  color: #acacac;
+  margin-top: -5px;
+  font-weight: 200;
+}
+/* feature panel */
+
+.about {
+  font-family: "poppins", sans-serif;
+  margin-top: 120px;
+}
+
+.about h2 {
+  font-weight: 700;
+}
+
+/* .about img {
+  display: block;
+} */
+
+.about .paragraph {
+  margin-top: 50px;
+}
+
+.about .teks-1 {
+  text-align: left;
+}
+
+.about .teks-2 {
+  text-align: right;
+}
+
+/* handbook */
+.hanbook {
+  margin-top: 120px;
+  font-family: "poppins", sans-serif;
+  background: url(img/paterns.png);
+}
+
+.hanbook h2 {
+  font-weight: 700;
+  text-align: center;
+}
+
+.hanbook .tombol {
+  margin-top: 20px;
+  margin-bottom: 50px;
+  align-items: center;
+  background-color: #fbb034;
+  color: white;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  font-weight: 500;
+}
+
+.hanbook .tombol:hover {
+  background-color: #fbb034;
+  transform: translateY(-7px);
+  box-shadow: 0px 10px 25px #605fd2;
+  color: #fbb034;
+  background-color: #605fd2;
+}
+
+.progress-bar {
+  background-color: #fbb034;
+  background: linear-gradient(90deg, #4d209e, #605fd2, #52addc);
+}
+
+.portfolio {
+  font-family: "poppins", sans-serif;
+  margin-top: 135px;
+}
+
+.portfolio h2 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.portfolio h4 {
+  font-size: 16px;
+  color: #605fd2;
+}
+
+.portfolio .bi {
+  margin-left: 5px;
+}
+
+.portfolio .card img {
+  border-radius: 25px;
+}
+
+.portfolio .card {
+  margin-top: 50px;
+  border-radius: 25px;
+  border: none;
+  background: url(img/paterns.png);
+}
+
+.portfolio .card:hover {
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-7px);
+  background-color: #605fd2;
+}
+
+.portfolio .tombol {
+  background-color: #605fd2;
+  color: white;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  /* transition: all 0.3s ease; */
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.portfolio .tombol:hover {
+  background-color: #fbb034;
+  color: #605fd2;
+  transition: all 1s ease-out;
+  transform: translateY(-7px);
+}
+
+.contact {
+  font-family: "poppins", sans-serif;
+  background: url(img/paterns.png);
+}
+
+.contact h2 {
+  font-weight: 700;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.contact img {
+  display: none;
+}
+
+.contact .tombol {
+  padding: 10px 40px;
+  background-color: #605fd2;
+  color: white;
+}
+
+.contact .tombol:hover {
+  background-color: #fbb034;
+  transform: translateY(-7px);
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+  padding: 20px;
+  background: linear-gradient(90deg, #4d209e, #605fd2, #52addc);
+  margin-top: 120px;
+}
+
+footer h4 {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  .jumbotron {
+    text-align: left;
+  }
+  .jumbotron img {
+    width: 400px;
+    display: block;
+  }
+
+  .jumbotron .gambar1 {
+    top: 100%;
+    display: none;
+  }
+
+  .jumbotron .gambar3 {
+    display: none;
+  }
+
+  .jumbotron .gambar2 {
+    position: absolute;
+    top: 0%;
+    width: 200px;
+    width: 10rem;
+    display: block;
+  }
+
+  .hanbook {
+    justify-content: left;
+    margin-top: 225px;
+  }
+
+  .about img {
+    display: none;
+  }
+
+  .about .teks-1 {
+    text-align: center;
+  }
+
+  .about .teks-2 {
+    text-align: center;
+  }
+
+  .portfolio {
+    margin-top: 235px;
+  }
+
+  .contact img {
+    display: block;
+  }
+
+  /* info-panel */
+}
