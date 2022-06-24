@@ -1,0 +1,3 @@
+<?php
+date_create
+<?

@@ -24,16 +24,6 @@
   color: #4d209e;
 }
 
-.nav-link:hover::after {
-  content: "";
-  display: block;
-  border-bottom: 3px solid #feab0d;
-  margin: auto;
-  width: 50%;
-  padding-bottom: 5px;
-  margin-bottom: -8px;
-}
-
 /* jumbotron */
 
 .jumbotron {
@@ -288,7 +278,8 @@
 
 .portfolio h4 {
   font-size: 16px;
-  color: #605fd2;
+  /* color: #605fd2; */
+  color: #fbb034;
 }
 
 .portfolio .bi {
@@ -310,6 +301,7 @@
   box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
   transform: translateY(-7px);
   background-color: #605fd2;
+  color: white;
 }
 
 .portfolio .tombol {
@@ -370,6 +362,16 @@ footer h4 {
 }
 
 @media (min-width: 992px) {
+  /* nav-link */
+  .nav-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 3px solid #feab0d;
+    margin: auto;
+    width: 50%;
+    padding-bottom: 5px;
+    margin-bottom: -8px;
+  }
   .jumbotron {
     text-align: left;
   }
