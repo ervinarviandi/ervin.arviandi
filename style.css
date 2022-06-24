@@ -59,6 +59,16 @@
   display: none;
 }
 
+.jumbotron .download {
+  background-color: #feab0d;
+  border-radius: 40px;
+  color: white;
+}
+
+.jumbotron .download:hover {
+  box-shadow: 0px 10px 25px #feab0d;
+}
+
 .jumbotron .tombol {
   background-color: #feab0d;
   color: white;
@@ -86,15 +96,16 @@
 
 .jumbotron .gambar1 {
   position: absolute;
-  left: 50%;
-  top: 0%;
+  left: 30%;
+  top: -8%;
   display: block;
 }
 
 .jumbotron .gambar2 {
   position: absolute;
+  width: 170px;
   right: 40%;
-  top: 60%;
+  top: 70%;
   display: block;
 }
 
