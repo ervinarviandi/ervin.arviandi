@@ -17,6 +17,9 @@
       rel="stylesheet"
     />
 
+    <!-- aos animation -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <!-- my css -->
     <link rel="stylesheet" href="style.css" />
 
@@ -49,7 +52,9 @@
     <div class="jumbotron">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <h1 class="display-4">
               Hi! Am <br />
               <span>Ervin Arviandi</span>
@@ -70,7 +75,9 @@
             <img class="gambar2" src="img/hero-guy-3.png" width="20" data-aos="fade-left" data-aos-duration="2000" alt="" />
             <img class="gambar3" src="img/hero-girl.png" width="300" data-aos="fade-down-left" data-aos-duration="4000" alt="" />
           </div>
-          <div class="col-lg-6">
+          <div class="col-lg-6" data-aos="fade-left"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine">
             <img src="img/WhatsApp Image 2022-04-01 at 09.45.18.jpeg"   alt="" />
           </div>
         </div>
@@ -81,7 +88,8 @@
     <!-- section what i do -->
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-10 info-panel">
+        <div class="col-10 info-panel" data-aos="fade-up"
+        data-aos-anchor-placement="center-bottom">
           <div class="row">
             <div class="col-lg">
               <img src="img/roger.png" alt="" class="float-left" />
@@ -149,10 +157,10 @@
           </div>
         </div>
         <div class="row paragraph ">
-          <div class="container col-lg-6">
+          <div class="col-lg-6" data-aos="fade-up-right">
             <p class="teks-1">Halo teman" salam kenal, sebelumnya saya berterimakasih karena teman" sudah mampir ke halaman Website saya, saya Moh Ervin Arviandi, saya adalah seorang mahasiswa, saya seseorang yang memiliki ketertarikan dengan dunia desain grafis, fotografi, animasi, serta pembuatan dan pengembangan sistem informasi. </p>
           </div>
-          <div class="container col-lg-6">
+          <div class="col-lg-6" data-aos="fade-up-left">
             <p class="teks-2">menjadi seseorang yang berkopeten pada ketertarikan yang saya sebutkan diatas adalah impian saya saat ini, untuk saat ini saya lebih fokus pada pembuatan desain serta perancangan sistem informasi, dan saat ini saya masih terus belajar untuk menjadi seorang front-end web developer </p>
           </div>
         </div>
@@ -165,11 +173,11 @@
     <!-- handbook -->
     <div class="container" id="project">
       <div class="row hanbook justify-content-center text-center">
-        <div class="col-lg-5">
+        <div class="col-lg-5" data-aos="zoom-in-right">
          <h2>Project Statistics</h2>
          <a class="btn btn-transparents tombol" href="">Know more</a>
         </div>
-        <div class="col-lg-7">
+        <div class="col-lg-7" data-aos="zoom-in-left">
           <div class="container">
             <div class="skill-detail justify-content-center">
               <div class="row">
@@ -271,7 +279,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-4 mb-5">
+          <div class="col-md-4 mb-5" data-aos="zoom-in">
             <div class="card">
               <img src="img/thumbnail kelas full stack javascript developer buildwith angga mern stack.png" width="" alt="...">
               <div class="card-body">
@@ -281,7 +289,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-5">
+          <div class="col-md-4 mb-5" data-aos="zoom-in">
             <div class="card">
               <img src="img/BWAHOTJAR 1.png" width="" alt="..." class="fluid-img-top">
               <div class="card-body">
@@ -291,7 +299,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 mb-5">
+          <div class="col-md-4 mb-5" data-aos="zoom-in">
             <div class="card">
               <img src="img/thm copy.jpg" width="" alt="...">
               <div class="card-body">
@@ -354,6 +362,10 @@
 
 
     <!-- Optional JavaScript; choose one of the two! -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
